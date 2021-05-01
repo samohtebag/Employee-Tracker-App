@@ -9,8 +9,8 @@ const questions = new Questions();
 
 //welcome message and "loader"
 function welcome(){
-    console.log("Welcome to Employee Tracker");
-    console.log("Loading");
+    console.log("Welcome to our Employee Database!");
+    console.log("Loading, please hold!");
     
     let duration = 0;
     let time = 250;
@@ -204,7 +204,7 @@ async function updateEmployeeRole(){
 
     });
 
-    confirm.message = `You would like to update the role of ${employee.first_name} ${employee.last_name} to ${role.title}?`;
+    confirm.message = `You are updating the role of ${employee.first_name} ${employee.last_name} to ${role.title}?`;
 
     await inquirer.prompt(confirm)
     .then(async function(answer){
