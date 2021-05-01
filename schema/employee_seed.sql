@@ -34,17 +34,17 @@ insert into role (title, salary, department_id) values
 ("CTO", 185000,8); 
 
 insert into employee (first_name, last_name, role_id, manager_id) values
-("Bart", "Simpson",20,null),
-("Peter","Parker",18,null),
-("Brian", "Leetch",19,null),
-("Mark","Messier",2,1),
-("Adam","Graves",1,2),
-("Ulf","Samuellson",5,null),
-("Jeff","Beukeboom",6,null),
-("Mike","Richter",7,null),
-("Henrik","Lundquvist",8,null),
-("Wayne","Gretzky",17,1),
-("Tie","Domi",11,13),
-("Chris","Pronger",11,13),
-("Eric","Lindros",13,2),
-("Derek","Boogaard",15,4);
+("Don", "Draper",20,null),
+("Peggy","Olsen",18,null),
+("Joan", "Harris",19,null),
+("Roger","Sterling",2,1),
+("Bert","Cooper",1,2),
+("Peter","Campbell",5,null),
+("Harry","Crane",6,null),
+("Megan","Draper",7,null),
+("Lane","Pryce",8,null),
+("Michael","Ginsberg",17,1),
+("Paul","Kinsey",11,13),
+("Betty","Francis",11,13),
+("Sally","Draper",13,2),
+("Bobby","Draper",15,4);

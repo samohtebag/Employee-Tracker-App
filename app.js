@@ -91,7 +91,7 @@ async function viewEmployeesByManager(){
             //get the right manager from the list
             manager = managers.find(e => e.name === answer.choice);
             await myBLL.getEmployeesByManager(manager).then(res=>{
-                dispayResults(res);
+                displayResults(res);
             });
             break;
         }
@@ -103,7 +103,7 @@ async function viewEmployeesByManager(){
 async function viewAllRoles(){
     await myBLL.viewAllRoles()
     .then(res =>{
-        dispayResults(res);
+        displayResults(res);
     });
     loadMainMenu();
 }
@@ -111,7 +111,7 @@ async function viewAllRoles(){
 async function viewAllDepartments(){
     await myBLL.getAllDepartments()
     .then(res=>{
-        dispayResults(res);
+        displayResults(res);
     });
     loadMainMenu();
 }
@@ -119,7 +119,7 @@ async function viewAllDepartments(){
 async function getAllEmployeesFullData(){
     await myBLL.getAllEmployeesFullData()
     .then(res =>{
-        dispayResults(res);
+        displayResults(res);
     });
     loadMainMenu();
 }
@@ -268,7 +268,7 @@ async function addEmployee(){
     loadMainMenu();
 }
 
-function dispayResults(res){
+function displayResults(res){
     console.log("");
     console.table(res);
     console.log("");

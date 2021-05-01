@@ -1,0 +1,28 @@
+{
+    "name": "employee-tracker-app",
+    "version": "1.0.0",
+    "description": "Employee Tracker Application",
+    "main": "app.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/samohtebag/Employee-Tracker-App.git"
+    },
+    "author": "Gabe Thomas",
+    "license": "APACHE 2.0",
+    "bugs": {
+        "url": "https://github.com/samohtebag/Employee-Tracker-App/issues"
+    },
+    "homepage": "https://github.com/samohtebag/Employee-Tracker-App#readme",
+    "dependencies": {
+        "console.table": "^0.10.0",
+        "inquirer": "^7.3.3",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.7"
+    }
+}
