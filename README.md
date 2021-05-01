@@ -50,7 +50,7 @@ Make sure you have Node.js installed before running application: https://nodejs.
 
 ## Links
  
-  * Application Walk-Through:  
+  * Application Walk-Through: (https://www.loom.com/share/c8d88ed0ff3b49d2bdd49918a2814e45)
   * Github Repository URL: (https://github.com/samohtebag/Employee-Tracker-App)
   
 

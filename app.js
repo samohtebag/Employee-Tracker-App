@@ -1,5 +1,5 @@
-const BLL = require('./lib/BLL');
-const mysql = require('mysql');
+const BLL = require('./lib/bll');
+const mysql = require('mysql2');
 const cTable = require('console.table');
 const inquirer = require('inquirer');
 const Questions = require('./lib/questions');
