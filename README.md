@@ -43,7 +43,7 @@ Make sure you have Node.js installed before running application: https://nodejs.
 ## Usage
 
 * Run "npm install" in your terminal (external or within VS Code) to install any dependencies. 
-* After, run node.js to execute the application, and then answers the prompts that follow.
+* After, run "node app.js" to execute the application, and then interact with the prompts that follow.
 
 
 <a name="#links"></a>
